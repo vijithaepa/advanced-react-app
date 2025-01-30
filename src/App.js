@@ -1,6 +1,5 @@
 import './App.css';
-import {Button} from "./components/Button";
-import {FaMoneyBill} from "react-icons/fa";
+import {ButtonsPage} from "./components/button/ButtonsPage";
 
 function App() {
   return (
@@ -8,18 +7,7 @@ function App() {
 
     <main className='App'>
 
-      <Button className="green" size="lg" variant='success'>
-        <FaMoneyBill/>
-        Buy now!</Button>
-      <Button className="green" size="lg" variant='warn'>
-        <FaMoneyBill/>
-        Buy now!</Button>
-      <Button className="green" size="lg" variant='error'>
-        <FaMoneyBill/>
-        Buy now!</Button>
-      <Button className="green" size="sm" variant='error'>
-        <FaMoneyBill/>
-        Buy now!</Button>
+      <ButtonsPage />
     </main>
     // </div>
   );
