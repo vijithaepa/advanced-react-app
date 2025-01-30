@@ -1,7 +1,11 @@
 import React from 'react'
+import './button.css';
 
-export function Button(props) {
+export function Button({children, className, size, variant,  ...props}) {
+
+  let variantClass = variant && 'button-'+variant
   return (
-    <button>{props.children}</button>
+    <button variant='primary' className={className + (size === "lg"? " button-large ": " button-small ") + variantClass}
+      {...props}>{children}</button>
   )
 }
