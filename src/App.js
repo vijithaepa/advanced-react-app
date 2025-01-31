@@ -1,5 +1,5 @@
-import './App.css';
-import {ButtonsPage} from "./components/button/ButtonsPage";
+
+import {AvatarPage} from "./components/avatar/AvatarPage";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
 
     <main className='App'>
 
-      <ButtonsPage />
+      <AvatarPage />
     </main>
     // </div>
   );
