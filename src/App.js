@@ -1,5 +1,6 @@
 
 import {AvatarPage} from "./components/avatar/AvatarPage";
+import ManuPage from "./components/menu/MenuPage";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
 
     <main className='App'>
 
-      <AvatarPage />
+      <ManuPage />
     </main>
     // </div>
   );
